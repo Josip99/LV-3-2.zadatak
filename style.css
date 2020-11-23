@@ -8,8 +8,6 @@ html {
   background-color: #ccc;
 }
 
-/* Selektori koji se trebaju spariti s pravilima */
-
 
 
 
@@ -21,11 +19,11 @@ html {
   border: 0.2em solid black;
   border-radius: 1.5em;
 }
-.card header{
+.card header{                                                                       <!-- Pravilo za zaglavlje -->
   background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
   border-radius: 1.5em 1.5em 0 0;
-  height: 3em;
-  padding: 1em 1em 1em 1em;
+  height: 3em;                                                                     <!-- postavljanje visine na 30 px, što je jednako 3 em zato što je u zadatku font size postavljen na 10 px-->
+  padding: 1em 1em 1em 1em;                                                        <!-- Ispunjenje sa svih strana od 10 px -->
   
 }
 .card footer{
@@ -41,12 +39,12 @@ html {
   float: right;
 
 }
-article{
+article{                                     <!-- za postavljanje boje koristio sam rgba, red=0, green=0, blue=0, što znači da dobivamo crnu boju s prozirnosti 50% -->
   height: 12em;
   background-color: rgba(0,0,0,0.5)
 }
 
-h2{
+h2{                                        <!-- Pošto tekst mora biti na sredini sadržaja kutije zaglavlja, visinu linije sam postavio na 15px (1.5em)-->
   margin: 0;
   font-size: 2em;
   line-height: 1.5em;
@@ -65,7 +63,7 @@ footer p{
 article p{
   text-align: left;
   padding: 1em 1em 1em 1em;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);    <!-- suprotno crnoj boji, bijelu možemo dobiti postavljanjem crvene, zelene i plave na max vrijednost -->
 }
 
 
